@@ -17,13 +17,10 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
 
 ## Código Ejemplo
 
-<section data-auto-animate>
-	<pre data-id="code-animation">
-    <code class="hljs sql" data-trim data-line-numbers>
-		SELECT  columna1, 
-                columna2, 
-                FUNCION_AGREGADA(columna3)
-        FROM tabla
-        GROUP BY columna1, columna2;
-	</code></pre>
-</section>
+```sql
+SELECT  columna1, 
+        columna2, 
+        FUNCION_AGREGADA(columna3)
+FROM tabla
+GROUP BY columna1, columna2;
+```
