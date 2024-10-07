@@ -6,7 +6,7 @@
 
 <!-- This presentation dshowcases examples created with the [reveal.js plugin collection](https://github.com/rajgoel/reveal.js-plugins). -->
 
----
+===
 
 ### ¿Cuándo Usarlo?
 
@@ -20,7 +20,6 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
 ### Código Ejemplo
 
 <section data-auto-animate>
-	<h2 data-id="code-title">Código para MySQL</h2>
 	<pre data-id="code-animation">
     <code class="hljs javascript" data-trim data-line-numbers>
 		SELECT  columna1, 
@@ -30,3 +29,5 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
         GROUP BY columna1, columna2;
 	</code></pre>
 </section>
+
+===
