@@ -6,7 +6,7 @@
 
 <!-- This presentation dshowcases examples created with the [reveal.js plugin collection](https://github.com/rajgoel/reveal.js-plugins). -->
 
-===
+---
 
 ### ¿Cuándo Usarlo?
 
@@ -29,5 +29,3 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
         GROUP BY columna1, columna2;
 	</code></pre>
 </section>
-
-===
