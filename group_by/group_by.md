@@ -24,18 +24,20 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
 ### Interactive elements
 
 <section data-auto-animate>
-	<h2 data-id="code-title">Pretty Code</h2>
+	<h2 data-id="code-title">Código para MySQL</h2>
 	<pre data-id="code-animation">
     <code class="hljs javascript" data-trim data-line-numbers>
-		SELECT columna1, columna2, FUNCION_AGREGADA(columna3)
+		SELECT  columna1, 
+                columna2, 
+                FUNCION_AGREGADA(columna3)
         FROM tabla
         GROUP BY columna1, columna2;
 	</code></pre>
-	<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
 </section>
+
 ---
 
-### Interactive elements
+### Interactive elements2
 
 <div class="anything">
 <!-- { "initialize": "function(container,options) {globe(container);}" } -->
