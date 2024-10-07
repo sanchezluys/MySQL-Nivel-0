@@ -8,30 +8,16 @@
 
 ---
 
-### Navigation
+### ¿Cuando Usarlo?
 
-Open the menu by clicking <i class="fa-solid fa-bars"></i> in the lower left corner and click <i class="fas fa-external-link-alt"></i> to navigate to demos for specific plugins or continue with the next slides to see a few examples created with the plugin collection.
+Cuando quieras agrupar datos similares y obtener resultados agregados por grupo, por ejemplo:
+
+- Sumar ventas por mes.
+- Contar empleados por departamento.
 
 ===
 
-## Examples
-
----
-
-### Animations
-
-<div data-animate data-load="animate/heart.svg">
-<!--
-{
-"setup": [
-{
-"element": "#heart",
-"modifier": "function() { this.animate(1500).ease('<>').scale(.9).loop(true,true);}"
-}
-]
-}
--->
-</div>
+## Ejemplos
 
 ---
 
