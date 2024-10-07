@@ -145,12 +145,17 @@
 	</div>
 
 
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({ startOnLoad: true });
+</script>
+
 <script>
 	// list of topics
 	// the src must be found within the folder, folders must be distinct!
 	var topics = [
 		{ topic: "Group By", src: "group_by.md", folder: "group_by" },
-
+		{ topic: "Herramientas Avanzadas", src: "herramientas_avanzadas.md", folder: "herramientas_avanzadas" }
 		// { topic: "Overview", src: "slides.md", folder: "overview" },
 		// { topic: "Animate", src: "slides.md", folder: "animate" },
 		// { topic: "Anything", src: "slides.md", folder: "anything" },
