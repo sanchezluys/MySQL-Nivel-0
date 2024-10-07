@@ -8,7 +8,7 @@
 
 ---
 
-### ¿Cuando Usarlo?
+### ¿Cuándo Usarlo?
 
 Cuando quieras agrupar datos similares y obtener resultados agregados por grupo, por ejemplo:
 
@@ -19,6 +19,20 @@ Cuando quieras agrupar datos similares y obtener resultados agregados por grupo,
 
 ## Ejemplos
 
+---
+
+### Interactive elements
+
+<section data-auto-animate>
+	<h2 data-id="code-title">Pretty Code</h2>
+	<pre data-id="code-animation">
+    <code class="hljs javascript" data-trim data-line-numbers>
+		SELECT columna1, columna2, FUNCION_AGREGADA(columna3)
+        FROM tabla
+        GROUP BY columna1, columna2;
+	</code></pre>
+	<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+</section>
 ---
 
 ### Interactive elements
