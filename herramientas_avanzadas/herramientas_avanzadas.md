@@ -15,6 +15,7 @@ Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlo
 Los **eventos** son acciones programadas en MySQL que ocurren automáticamente en intervalos definidos o en un momento específico. Este es el flujo de un evento:
 
 <img src="/herramientas_avanzadas/img/vistas_1.png" alt="vistas_2"	style="height: auto; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
 ---
 
 ## 🛠️ Funciones
