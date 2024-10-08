@@ -1,4 +1,4 @@
-## 🌐 MySQL: Vistas, Eventos, Funciones, Procedimientos y Triggers
+## 🌐 Vistas, Eventos, Funciones, Procedimientos y Triggers
 
 <img src="img/herr_avan/herramientas.jpg" alt="vistas"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
@@ -30,6 +30,8 @@ Las **funciones** permiten realizar cálculos y transformaciones en los datos de
 
 ## 🌀 Procedimientos
 
+>[!IMPORTANT]
+> Importante
 Los **procedimientos almacenados** permiten ejecutar un conjunto de instrucciones en MySQL. No devuelven ningún valor.
 
 <img src="img/herr_avan/procedimiento.png" alt="procedimiento"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
