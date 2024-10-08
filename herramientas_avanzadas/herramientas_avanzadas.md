@@ -1,19 +1,12 @@
 ## 🌐 MySQL: Vistas, Eventos, Funciones, Procedimientos y Triggers
 
-Este documento describe los principales componentes de MySQL a través de diagramas de flujo. ¡Observa cómo se conectan y fluyen entre sí!
-
 ---
 
 ## 📊 Vistas
 
 Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. A continuación, se muestra el flujo de una vista:
 
-<pre class="mermaid">
-    graph LR
-    A[Base de Datos] -->|Consulta| B[Vista]
-    B -->|Devuelve| C[Resultado]
-</pre>
-
+<img src="img/vistas_1.png" alt="vistas_1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
