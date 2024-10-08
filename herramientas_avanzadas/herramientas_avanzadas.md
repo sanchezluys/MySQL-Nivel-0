@@ -6,7 +6,7 @@
 
 Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. A continuación, se muestra el flujo de una vista:
 
-<img src="img/vistas_1.png" alt="vistas_1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+<img src="/herramientas_avanzadas/img/vistas_1.png" alt="vistas_1"	style="height: auto; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
