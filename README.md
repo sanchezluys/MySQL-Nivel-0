@@ -1,7 +1,7 @@
-# Mi proyecto
+# Presentación en linea de las clases de MySQL
 
 >[!NOTE]
-> Nota
+> Usando como librería: [reveal.js-plugins](https://github.com/rajgoel/reveal.js-plugins)
 
 >[!WARNING]
 > Advertencia
@@ -13,9 +13,4 @@
 > Importante
 
 >[!CAUTION]
-> nota
-
-
-Demos for [reveal.js-plugins](https://github.com/rajgoel/reveal.js-plugins), a plugin collection for the HTML presentation framework [reveal.js](https://github.com/hakimel/reveal.js).
-
-**Watch online:** <https://rajgoel.github.io/reveal.js-demos/>
+> Precaución
