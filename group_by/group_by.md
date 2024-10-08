@@ -24,11 +24,12 @@ SELECT          columna1,
                 FUNCION_AGREGADA(columna3)
 FROM            tabla
 GROUP BY        columna1, columna2;
+
 -- ***************
 -- Algunas Funciones de agregación
--- 1. Count()
--- 2. Sum()
--- 3. Avg()
--- 4. Min()
--- 5. Max()
+-- 1. Count()   -> cuenta registros
+-- 2. Sum()     -> suma y acumula
+-- 3. Avg()     -> busca el promedio
+-- 4. Min()     -> busca el mínimo valor
+-- 5. Max()     -> busca el máximo valor
 ```
