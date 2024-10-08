@@ -8,11 +8,12 @@ Este documento describe los principales componentes de MySQL a través de diagra
 
 Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. A continuación, se muestra el flujo de una vista:
 
-<div class="mermaid">
-graph LR
+<pre class="mermaid">
+    graph LR
     A[Base de Datos] -->|Consulta| B[Vista]
     B -->|Devuelve| C[Resultado]
-</div>
+</pre>
+
 
 ---
 
