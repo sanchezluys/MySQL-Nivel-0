@@ -1,4 +1,4 @@
-# Reveal.js-demos
+# Mi proyecto
 
 Demos for [reveal.js-plugins](https://github.com/rajgoel/reveal.js-plugins), a plugin collection for the HTML presentation framework [reveal.js](https://github.com/hakimel/reveal.js).
 
