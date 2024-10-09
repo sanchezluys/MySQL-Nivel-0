@@ -1,11 +1,11 @@
 ## Having
 
-<img src="img/having/having.png" alt="having"	style="height: 200px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
-
 - Se utiliza para filtrar los resultados de las funciones de agregación (similar a WHERE, pero HAVING opera después de la agregación).
 - Las **funciones de agregación** son por ejemplo Count(), Sum(), Avg(), etc 
 - Es muy común su uso con **Group By** pero no es obligatorio que sea así
 - ⚠️ Debe usarse en conjunto con **Las Funciones de Agregación**
+
+<img src="img/having/having.png" alt="having"	style="height: 200px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
