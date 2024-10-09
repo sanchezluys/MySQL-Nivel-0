@@ -1,8 +1,8 @@
 ## Having
 
-- HAVING se utiliza para filtrar los resultados de las funciones de agregación (similar a WHERE, pero HAVING opera después de la agregación).
-- Las funciones de agregación son por ejemplo Count(), Sum(), Avg(), etc 
-- Es muy común su uso con Group By pero no es obligatorio que sea así
+- Se utiliza para filtrar los resultados de las funciones de agregación (similar a WHERE, pero HAVING opera después de la agregación).
+- Las **funciones de agregación** son por ejemplo Count(), Sum(), Avg(), etc 
+- Es muy común su uso con **Group By** pero no es obligatorio que sea así
 - ⚠️ Debe usarse en conjunto con **Las Funciones de Agregación**
 
 ---
