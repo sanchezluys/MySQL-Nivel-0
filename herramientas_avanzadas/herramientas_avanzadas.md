@@ -61,3 +61,24 @@ En resumen, estos componentes permiten a MySQL gestionar datos de manera automat
 ## 📊 Partes de las Vistas
 
 <img src="img/herr_avan/v_2.png" alt="vista 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+## 📊 Código Ejemplo para una Vista
+
+```sql
+
+CREATE 
+        ALGORITHM = UNDEFINED 
+        DEFINER = `credicel_profesor`@`%` 
+        SQL SECURITY DEFINER
+VIEW    `lista` AS
+        SELECT 
+            `Dpto`.`departamento` AS `DEPARTAMENTO`,
+            `Mcipio`.`municipio` AS `MUNICIPIOS`
+        FROM
+            (`departamentos` `Dpto`
+            JOIN `municipios` `Mcipio` 
+                ON (`Dpto`.`id_departamento` = `Mcipio`.`departamento_id`))
+
+```
