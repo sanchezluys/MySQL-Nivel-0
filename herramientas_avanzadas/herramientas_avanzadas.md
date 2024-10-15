@@ -82,3 +82,75 @@ VIEW    `lista` AS
                 ON (`Dpto`.`id_departamento` = `Mcipio`.`departamento_id`))
 
 ```
+
+===
+
+## 🛠️ Entendiendo las Funciones
+
+<img src="img/herr_avan/f/f_1.png" alt="Funcion 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+## 🛠️ Partes de las Funciones
+
+<img src="img/herr_avan/f/f_2.png" alt="funcion 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+## 🛠️ Código Básico Ejemplo para una Función
+
+```sql
+
+DELIMITER $$
+
+CREATE FUNCTION nombre_completo(nombre VARCHAR(50), apellido VARCHAR(50))
+RETURNS VARCHAR(101)
+DETERMINISTIC
+BEGIN
+    RETURN CONCAT(nombre, ' ', apellido);
+END $$
+
+DELIMITER ;
+
+```
+
+---
+
+## 🛠️ Código Intermedio Ejemplo para una Función
+
+```sql
+
+DELIMITER $$
+
+CREATE FUNCTION format_full_name(first_name VARCHAR(50), middle_name VARCHAR(50), last_name VARCHAR(50))
+RETURNS VARCHAR(151)
+DETERMINISTIC
+BEGIN
+    DECLARE full_name VARCHAR(151);
+    
+    -- Inicializa full_name como una cadena vacía
+    SET full_name = '';
+    
+    -- Si el primer nombre no es nulo, agregarlo
+    IF first_name IS NOT NULL THEN
+        SET full_name = first_name;
+    END IF;
+    
+    -- Si el segundo nombre no es nulo, agregarlo con un espacio
+    IF middle_name IS NOT NULL THEN
+        SET full_name = CONCAT(full_name, ' ', middle_name);
+    END IF;
+    
+    -- Si el apellido no es nulo, agregarlo con un espacio
+    IF last_name IS NOT NULL THEN
+        SET full_name = CONCAT(full_name, ' ', last_name);
+    END IF;
+    
+    -- Retorna el nombre completo, eliminando espacios en blanco adicionales
+    RETURN TRIM(full_name);
+END $$
+
+DELIMITER ;
+
+
+```
