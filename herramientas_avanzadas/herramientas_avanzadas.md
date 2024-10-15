@@ -122,7 +122,9 @@ DELIMITER ;
 
 DELIMITER $$
 
-CREATE FUNCTION format_full_name(first_name VARCHAR(50), middle_name VARCHAR(50), last_name VARCHAR(50))
+CREATE FUNCTION format_full_name(first_name VARCHAR(50), 
+                                middle_name VARCHAR(50), 
+                                last_name VARCHAR(50))
 RETURNS VARCHAR(151)
 DETERMINISTIC
 BEGIN
