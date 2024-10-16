@@ -50,9 +50,9 @@
   <script src="https://d3js.org/topojson.v3.min.js"></script>
 
 	<!-- Audio slideshow plugin -->
-	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/plugin.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/plugin.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/recorder.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.6.2/RecordRTC.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.6.2/RecordRTC.js"></script> -->
 
 	<!-- Chalkboard plugin -->
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/plugin.js"></script>
@@ -222,14 +222,14 @@
       },
 			{className: "anything",  initialize: (function(container, options) { if (options && typeof options.initialize === "function") { options.initialize(container);} }) }
 		],
-		audio: {
-			defaultDuration: 5,
-			playerStyle : "position: fixed; bottom: 4px; left: 30%; width: 40%; height:70px; z-index: 33;",
-			playerOpacity: 0.5,
-			advance: 500,
-			prefix: getPath() + "/playback/",
-			suffix: '.ogg'
-		},
+		// audio: {
+		// 	defaultDuration: 5,
+		// 	playerStyle : "position: fixed; bottom: 4px; left: 30%; width: 40%; height:70px; z-index: 33;",
+		// 	playerOpacity: 0.5,
+		// 	advance: 500,
+		// 	prefix: getPath() + "/playback/",
+		// 	suffix: '.ogg'
+		// },
 		chalkboard: {
 			storage: document.title,
 			src: getPath() + "/playback/chalkboard.json",
@@ -283,8 +283,8 @@
 			RevealHighlight,
 			RevealLoadContent,
 			RevealAnimate,
-			RevealAudioSlideshow,
-			RevealAudioRecorder,
+			// RevealAudioSlideshow,
+			// RevealAudioRecorder,
 			RevealAnything,
 			RevealChalkboard,
 			RevealChart,
