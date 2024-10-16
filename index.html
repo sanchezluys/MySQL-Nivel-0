@@ -131,7 +131,7 @@
 			</section>
 
 			<section>
-				<!-- <h2>¿Dudas?</h2>
+				<h2>¿Dudas?</h2>
 				<div class="presentation-only">
 					🤔 Es el momento de reflexionar de lo aprendido y generar preguntas o contribuir con experiencias al tema
 					<br>
@@ -139,7 +139,7 @@
 						<li><a id="pdf-link"><i class="fas fa-file-pdf"></i></a> Imprimir presentación en PDF </li>
 						<li><a href="#" onclick="return nextTopic();"><i class="fas fa-external-link-alt"></i></a> Ir al próximo tema o tópico.</li>
 					</ul>
-				</div> -->
+				</div>
 			</section>
 		</div>
 	</div>
@@ -168,8 +168,8 @@
 
 
 	var topicId = getTopicId();
-	document.title = "Reveal.js-plugin: " + getTopic();
-  document.getElementById('pdf-link').href = getURL(topicId) + '&print-pdf';
+	document.title = "MySQL: " + getTopic();
+  	document.getElementById('pdf-link').href = getURL(topicId) + '&print-pdf';
 
 	// load topic
 	document.querySelector('section[data-markdown=""]').setAttribute("data-markdown",topics[topicId].folder + "/" + topics[topicId].src);
