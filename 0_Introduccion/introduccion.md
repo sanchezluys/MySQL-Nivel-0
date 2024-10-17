@@ -1,10 +1,10 @@
 #### 🌐 Introducción
 
-<img src="img/herr_avan/herramientas.jpg" alt="vistas"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="0_Introduccion/meet_1.png" alt="vistas"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 📊 Vistas
+#### 📊 Objetivos
 
 Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. Muy útil para querys recurrentes
 
@@ -12,7 +12,7 @@ Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlo
 
 ---
 
-#### ⏳ Eventos
+#### ⏳ Meta Final
 
 Los **eventos** son acciones programadas en MySQL que ocurren automáticamente en intervalos definidos o en un momento específico.
 
