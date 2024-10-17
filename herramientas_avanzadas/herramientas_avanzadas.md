@@ -1,10 +1,10 @@
-## 🌐 Vistas, Eventos, Funciones, Procedimientos y Triggers
+#### 🌐 Vistas, Eventos, Funciones, Procedimientos y Triggers
 
 <img src="img/herr_avan/herramientas.jpg" alt="vistas"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-## 📊 Vistas
+#### 📊 Vistas
 
 Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. Muy útil para querys recurrentes
 
@@ -12,7 +12,7 @@ Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlo
 
 ---
 
-## ⏳ Eventos
+#### ⏳ Eventos
 
 Los **eventos** son acciones programadas en MySQL que ocurren automáticamente en intervalos definidos o en un momento específico.
 
@@ -20,7 +20,7 @@ Los **eventos** son acciones programadas en MySQL que ocurren automáticamente e
 
 ---
 
-## 🛠️ Funciones
+#### 🛠️ Funciones
 
 Las **funciones** permiten realizar cálculos y transformaciones en los datos de manera modular. Pueden recibir varios argumentos y devuelven un valor **siempre**
 
@@ -28,7 +28,7 @@ Las **funciones** permiten realizar cálculos y transformaciones en los datos de
 
 ---
 
-## 🌀 Procedimientos
+#### 🌀 Procedimientos
 
 Los **procedimientos almacenados** permiten ejecutar un conjunto de instrucciones en MySQL. No devuelven ningún valor.
 
@@ -36,7 +36,7 @@ Los **procedimientos almacenados** permiten ejecutar un conjunto de instruccione
 
 ---
 
-## 🔁 Triggers
+#### 🔁 Triggers
 
 Los **triggers** son acciones automáticas que se ejecutan cuando ocurre un evento en una tabla (como una inserción o actualización). El flujo de un trigger es el siguiente:
 
@@ -44,7 +44,7 @@ Los **triggers** son acciones automáticas que se ejecutan cuando ocurre un even
 
 ---
 
-## 🔗 Conclusión
+#### 🔗 Conclusión
 
 En resumen, estos componentes permiten a MySQL gestionar datos de manera automatizada, modular y eficiente. Utiliza herramientas para mejorar el rendimiento de tus bases de datos. 🚀
 
@@ -52,19 +52,19 @@ En resumen, estos componentes permiten a MySQL gestionar datos de manera automat
 
 ===
 
-## 📊 Entendiendo las Vistas
+#### 📊 Entendiendo las Vistas
 
 <img src="img/herr_avan/v_1.png" alt="vista 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-## 📊 Partes de las Vistas
+#### 📊 Partes de las Vistas
 
 <img src="img/herr_avan/v_2.png" alt="vista 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-## 📊 Código Ejemplo para una Vista
+#### 📊 Código Ejemplo para una Vista
 
 ```sql
 
@@ -85,19 +85,19 @@ VIEW    `lista` AS
 
 ===
 
-## 🛠️ Entendiendo las Funciones
+#### 🛠️ Entendiendo las Funciones
 
 <img src="img/herr_avan/f/f_1.png" alt="Funcion 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-## 🛠️ Partes de las Funciones
+#### 🛠️ Partes de las Funciones
 
 <img src="img/herr_avan/f/f_2.png" alt="funcion 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-## 🛠️ Código Básico Ejemplo para una Función
+#### 🛠️ Código Básico Ejemplo para una Función
 
 ```sql
 
@@ -116,7 +116,7 @@ DELIMITER ;
 
 ---
 
-## 🛠️ Código Intermedio Ejemplo para una Función
+#### 🛠️ Código Intermedio Ejemplo para una Función
 
 ```sql
 
@@ -159,19 +159,19 @@ DELIMITER ;
 
 ===
 
-### 🌀 Entendiendo los Procedimientos
+#### 🌀 Entendiendo los Procedimientos
 
 <img src="img/herr_avan/p/p_1.png" alt="procedimiento 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-### 🌀 Partes de los Procedimientos
+#### 🌀 Partes de los Procedimientos
 
 <img src="img/herr_avan/p/p_2.png" alt="procedimiento 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-### 🌀 Código Básico Ejemplo para un Procedimiento
+#### 🌀 Código Básico Ejemplo para un Procedimiento
 
 ```sql
 
@@ -194,7 +194,7 @@ DELIMITER ;
 
 ---
 
-### 🌀 Código Intermedio Ejemplo para una los Procedimientos
+#### 🌀 Código Intermedio Ejemplo para una los Procedimientos
 
 ```sql
 
