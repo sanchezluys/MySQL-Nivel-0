@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="utf-8">
 
-	<title>Slides 1</title>
+	<title>MySQL</title>
 
 	<meta name="description" content="Slides">
 	<meta name="author" content="Asvin Goel">
@@ -28,26 +28,26 @@
 
 	<!-- Menu plugin -->
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js"></script>
-  <link href=" https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css " rel="stylesheet">
+	<link href=" https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css " rel="stylesheet">
 
 	<!-- Font awesome is used by several plugins -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 	<!-- Animate plugin -->
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/animate/plugin.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
 
 	<!-- Anything plugin -->
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/anything/plugin.js"></script>
 
 	<!-- Examples for the anything plugin -->
 	<script src="anything/rollofadie.js"></script>
-  <script src="https://gist.githack.com/rajgoel/000f227d1f9c79b6f8a4225e8c9a49ba/raw/globe.js"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://d3js.org/d3-request.v1.min.js"></script>
-  <script src="https://d3js.org/d3-queue.v3.min.js"></script>
-  <script src="https://d3js.org/topojson.v3.min.js"></script>
+	<script src="https://gist.githack.com/rajgoel/000f227d1f9c79b6f8a4225e8c9a49ba/raw/globe.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3-request.v1.min.js"></script>
+	<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+	<script src="https://d3js.org/topojson.v3.min.js"></script>
 
 	<!-- Audio slideshow plugin -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/plugin.js"></script>
@@ -83,9 +83,6 @@
 	<!-- Questions plugin requires seminar plugin -->
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/questions/plugin.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/questions/style.css">
-
-	<!-- QR-Codes -->
-  	<script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
 
 	<!-- Style file -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/style.css">
@@ -123,10 +120,7 @@
 						class="demo-logo">
 				<p>Nivel 0</p>
 				<p>by sanchezluys</p>
-				<!-- <div id="qrcode"></div> -->
-				<!-- <p><a id="url"></a></p> -->
 			</section>
-			
 			<section data-markdown data-separator="^\n===\n$" data-separator-vertical="^\n---\n$">
 			</section>
 
@@ -154,6 +148,7 @@
 	// list of topics
 	// the src must be found within the folder, folders must be distinct!
 	var topics = [
+		{ topic: "0.Introducción", src: "introduccion.md", folder: "0_Introduccion" },
 		{ topic: "Group By", src: "group_by.md", folder: "group_by" },
 		{ topic: "Having", src: "having.md", folder: "having" },
 		{ topic: "Herramientas Avanzadas", src: "herramientas_avanzadas.md", folder: "herramientas_avanzadas" },
@@ -164,6 +159,7 @@
 		// { topic: "Chalkboard", src: "slides.md", folder: "chalkboard" },
 		// { topic: "Chart", src: "slides.md", folder: "chart" },
 		// { topic: "Seminar", src: "slides.md", folder: "seminar" }
+		{ topic: "100.Talleres", src: "talleres.md", folder: "100_Talleres" },
 	];
 
 
