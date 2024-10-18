@@ -60,45 +60,21 @@
   8. <strong>📚 Ganas de aprender</strong>: Actitud proactiva para adquirir nuevos conocimientos y mejorar continuamente.
 </p>
 
----
-
-#### 🌀 Procedimientos
-
-Los **procedimientos almacenados** permiten ejecutar un conjunto de instrucciones en MySQL. No devuelven ningún valor.
-
-<img src="img/herr_avan/procedimiento.png" alt="procedimiento"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
-
----
-
-#### 🔁 Triggers
-
-Los **triggers** son acciones automáticas que se ejecutan cuando ocurre un evento en una tabla (como una inserción o actualización). El flujo de un trigger es el siguiente:
-
-<img src="img/herr_avan/trigger.jpg" alt="trigger"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
-
----
-
-#### 🔗 Conclusión
-
-En resumen, estos componentes permiten a MySQL gestionar datos de manera automatizada, modular y eficiente. Utiliza herramientas para mejorar el rendimiento de tus bases de datos. 🚀
-
-<img src="img/herr_avan/conclusion.jpg" alt="conclusion"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
-
 ===
 
-#### 📊 Entendiendo las Vistas
+#### 📊 Introducción a un Proyecto Desarrollo IT
 
 <img src="img/herr_avan/v_1.png" alt="vista 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-#### 📊 Partes de las Vistas
+#### 📊 FrontEnd
 
 <img src="img/herr_avan/v_2.png" alt="vista 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-#### 📊 Código Ejemplo para una Vista
+#### 📊 BackEnd
 
 ```sql
 
