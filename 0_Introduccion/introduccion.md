@@ -7,20 +7,21 @@
 #### 🎯 Objetivos
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-  1. <strong>Bases de datos Relacionales</strong>: Explorar y dominar herramientas y lenguajes emergentes que mejoren nuestras habilidades técnicas.
+  1. <strong>🗄️ Bases de datos Relacionales</strong>: Comprender los conceptos fundamentales de las bases de datos relacionales y cómo se estructuran los datos en tablas relacionadas.
 </p>
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
-  2. <strong>Tablas</strong>: Implementar prácticas y metodologías ágiles para optimizar el tiempo y los recursos.
+  2. <strong>📊 Tablas</strong>: Aprender a crear, modificar y gestionar tablas en bases de datos relacionales para organizar eficientemente los datos.
 </p>
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
-  3. <strong>Relaciones entre tablas</strong>: Contribuir activamente en proyectos comunitarios para compartir conocimientos y aprender.
+  3. <strong>🔗 Relaciones entre tablas</strong>: Establecer relaciones entre diferentes tablas mediante claves primarias y foráneas, optimizando la integridad referencial de la base de datos.
 </p>
 <p class="fragment" data-fragment-index="4" style="text-align: left;">
-  4. <strong>CRUD</strong>: Asumir roles que fomenten la toma de decisiones estratégicas y el trabajo en equipo.
+  4. <strong>🛠️ CRUD</strong>: Dominar las operaciones fundamentales de una base de datos (Crear, Leer, Actualizar, Eliminar) para manipular la información almacenada.
 </p>
 <p class="fragment" data-fragment-index="5" style="text-align: left;">
-  5. <strong>Desarrollar, crear y publicar en GitHub una BD relacional</strong>: Priorizar el bienestar personal para garantizar un rendimiento sostenido a largo plazo.
+  5. <strong>🚀 Desarrollar, crear y publicar en GitHub una BD relacional</strong>: Integrar todo el conocimiento adquirido para desarrollar y desplegar una base de datos relacional, compartiéndola en GitHub.
 </p>
+
 
 
 ---
