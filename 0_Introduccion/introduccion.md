@@ -6,11 +6,22 @@
 
 #### 🎯 Objetivos
 
-<p class="fragment" data-fragment-index="1">1. **Bases de datos Relacionales**: Explorar y dominar herramientas y lenguajes emergentes que mejoren nuestras habilidades técnicas.</p>
-<p class="fragment" data-fragment-index="2">2. **Mejorar la eficiencia en el trabajo**: Implementar prácticas y metodologías ágiles para optimizar el tiempo y los recursos.</p>
-<p class="fragment" data-fragment-index="3">3. **Colaborar en proyectos de código abierto**: Contribuir activamente en proyectos comunitarios para compartir conocimientos y aprender </p>de otros desarrolladores.
-<p class="fragment" data-fragment-index="4">4. **Desarrollar habilidades de liderazgo**: Asumir roles que fomenten la toma de decisiones estratégicas y el trabajo en equipo.</p>
-<p class="fragment" data-fragment-index="5">5. **Mantener un equilibrio entre vida personal y profesional**: Priorizar el bienestar personal para garantizar un rendimiento sostenido a </p>
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+  1. <strong>Bases de datos Relacionales</strong>: Explorar y dominar herramientas y lenguajes emergentes que mejoren nuestras habilidades técnicas.
+</p>
+<p class="fragment" data-fragment-index="2" style="text-align: left;">
+  2. <strong>Tablas</strong>: Implementar prácticas y metodologías ágiles para optimizar el tiempo y los recursos.
+</p>
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+  3. <strong>Relaciones entre tablas</strong>: Contribuir activamente en proyectos comunitarios para compartir conocimientos y aprender.
+</p>
+<p class="fragment" data-fragment-index="4" style="text-align: left;">
+  4. <strong>CRUD</strong>: Asumir roles que fomenten la toma de decisiones estratégicas y el trabajo en equipo.
+</p>
+<p class="fragment" data-fragment-index="5" style="text-align: left;">
+  5. <strong>Desarrollar, crear y publicar en GitHub una BD relacional</strong>: Priorizar el bienestar personal para garantizar un rendimiento sostenido a largo plazo.
+</p>
+
 
 ---
 
