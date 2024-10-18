@@ -6,15 +6,10 @@
 
 #### 📊 Objetivos
 
-Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. 
-
-Muy útil para querys recurrentes.
-
-<p class="fragment">Fade in</p>
-<p class="fragment fade-out">Fade out</p>
-<p class="fragment highlight-red">Highlight red</p>
-<p class="fragment fade-in-then-out">Fade in, then out</p>
-<p class="fragment fade-up">Slide up while fading in</p>
+<p class="fragment" data-fragment-index="1">Bases de datos Relacionales</p>
+<p class="fragment" data-fragment-index="2">Appears 2</p>
+<p class="fragment" data-fragment-index="3">Appears 3</p>
+<p class="fragment" data-fragment-index="4">Appears 4</p>
 
 ---
 
