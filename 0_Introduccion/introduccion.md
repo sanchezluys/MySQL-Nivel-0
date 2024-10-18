@@ -6,9 +6,10 @@
 
 #### 📊 Objetivos
 
-Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. Muy útil para querys recurrentes
+Las **vistas** son tablas virtuales que permiten visualizar datos sin duplicarlos. 
 
-<img src="img/herr_avan/vistas_1.png" alt="vistas"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+Muy útil para querys recurrentes
+
 
 ---
 
