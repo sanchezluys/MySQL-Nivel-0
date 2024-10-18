@@ -64,34 +64,20 @@
 
 #### 📊 Introducción a un Proyecto Desarrollo IT
 
-<img src="img/herr_avan/v_1.png" alt="vista 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+<img src="0_Introduccion/proyecto_1.jpg" alt="vista 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
 #### 📊 FrontEnd
 
-<img src="img/herr_avan/v_2.png" alt="vista 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+<img src="0_Introduccion/frontend_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
 #### 📊 BackEnd
 
-```sql
+<img src="0_Introduccion/backend_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
-CREATE 
-        ALGORITHM = UNDEFINED 
-        DEFINER = `credicel_profesor`@`%` 
-        SQL SECURITY DEFINER
-VIEW    `lista` AS
-        SELECT 
-            `Dpto`.`departamento` AS `DEPARTAMENTO`,
-            `Mcipio`.`municipio` AS `MUNICIPIOS`
-        FROM
-            (`departamentos` `Dpto`
-            JOIN `municipios` `Mcipio` 
-                ON (`Dpto`.`id_departamento` = `Mcipio`.`departamento_id`))
-
-```
 
 ===
 
