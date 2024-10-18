@@ -7,22 +7,23 @@
 #### 🎯 Objetivos
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-  1. <strong>🗄️ Bases de datos Relacionales</strong>: Comprender los conceptos fundamentales de las bases de datos relacionales y cómo se estructuran los datos en tablas relacionadas.
+  1. <strong>🗄️ Bases de datos Relacionales</strong>: Comprender la estructura de datos en tablas relacionadas.
 </p>
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
-  2. <strong>📊 Tablas</strong>: Aprender a crear, modificar y gestionar tablas en bases de datos relacionales para organizar eficientemente los datos.
+  2. <strong>📊 Tablas</strong>: Crear y gestionar tablas de forma eficiente.
 </p>
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
-  3. <strong>🔗 Relaciones entre tablas</strong>: Establecer relaciones entre diferentes tablas mediante claves primarias y foráneas, optimizando la integridad referencial de la base de datos.
+  3. <strong>🔗 Relaciones entre tablas</strong>: Establecer relaciones mediante claves primarias y foráneas.
 </p>
 <p class="fragment" data-fragment-index="4" style="text-align: left;">
-  4. <strong>🛠️ CRUD</strong>: Dominar las operaciones fundamentales de una base de datos (Crear, Leer, Actualizar, Eliminar) para manipular la información almacenada.
+  4. <strong>🛠️ CRUD</strong>: Realizar operaciones básicas (Crear, Leer, Actualizar, Eliminar) en las tablas.
 </p>
 <p class="fragment" data-fragment-index="5" style="text-align: left;">
-  5. <strong>🚀 Desarrollar, crear y publicar en GitHub una BD relacional</strong>: Integrar todo el conocimiento adquirido para desarrollar y desplegar una base de datos relacional, compartiéndola en GitHub.
+  5. <strong>🔍 Consultas SQL</strong>: Ejecutar consultas para recuperar y manipular datos.
 </p>
-
-
+<p class="fragment" data-fragment-index="6" style="text-align: left;">
+  6. <strong>🚀 Publicar en GitHub</strong>: Desarrollar y publicar una base de datos en GitHub.
+</p>
 
 ---
 
