@@ -27,3 +27,45 @@
 <p class="fragment" data-fragment-index="5" style="text-align: left;">
   5. <strong>🖱️ Conectar y empezar a usar</strong>: Haz clic en "OK" para guardar la configuración de la conexión y luego en "Connect". Ahora puedes empezar a usar MySQL Workbench para gestionar tus bases de datos.
 </p>
+
+===
+
+#### 📊 Sitio Oficial
+
+<img src="100_Talleres/sitio_oficial.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Descargas
+
+<img src="100_Talleres/descarga.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Versiones - Community
+
+<img src="100_Talleres/d_1.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Software Disponible - Community
+
+<img src="100_Talleres/d_2.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Workbench - Community
+
+<img src="100_Talleres/d_3.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Workbench - Community
+
+<img src="100_Talleres/d_4.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### 📊 Workbench - Community
+
+<img src="100_Talleres/d_5.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
