@@ -322,13 +322,17 @@ DELIMITER ;
 
 ### Verificando Diagrama de Flujo
 
-<div class="mermaid">
-        <pre>
-          flowchart TD
-            A[Start] --> B{Is it?};
-            B -- Yes --> C[OK];
-            C --> D[Rethink];
-            D --> B;
-            B -- No ----> E[End];
-        </pre>
+<div class="slides">
+    <section>
+        <div class="mermaid">
+                <pre>
+                flowchart TD
+                    A[Start] --> B{Is it?};
+                    B -- Yes --> C[OK];
+                    C --> D[Rethink];
+                    D --> B;
+                    B -- No ----> E[End];
+                </pre>
+        </div>
+    </section>
 </div>
