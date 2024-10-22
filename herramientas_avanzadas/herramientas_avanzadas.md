@@ -319,6 +319,7 @@ DELIMITER ;
 ```
 
 ---
+
 ### Verificando Diagrama de Flujo
 
 <div class="mermaid">
