@@ -317,3 +317,25 @@ END$$
 
 DELIMITER ;
 ```
+---
+### Verificando Diagrama de Flujo
+
+```mermaid
+flowchart TD
+    A[**Inicio**: Configurar cuenta en OCI - Usuario Principal] --> B[**Acceder a Interface de OCI**]
+    B --> C[Identidad --> Compartimientos]
+    C --> D[Crear Compartimientos]
+    D --> E[Nuevo compartimiento: **Desarrollo**]
+    D --> F[Nuevo compartimiento: **Producción**]
+    E --> G[Fin]
+    F --> H[Fin]
+    %% Estilos de los bloques
+    style A fill:green,stroke:#333,stroke-width:2px, color:#000
+    style B fill:cyan,stroke:#333,stroke-width:2px, color:#000
+    style C fill:cyan,stroke:#333,stroke-width:2px, color:#000
+    style D fill:cyan,stroke:#333,stroke-width:2px, color:#000
+    style E fill:yellow,stroke:#333,stroke-width:2px, color:#000
+    style F fill:brown,stroke:#333,stroke-width:2px, color:#000
+    style G fill:yellow,stroke:#333,stroke-width:2px, color:#000
+    style H fill:brown,stroke:#333,stroke-width:2px, color:#000
+```
