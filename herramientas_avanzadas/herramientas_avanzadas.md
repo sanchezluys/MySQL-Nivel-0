@@ -231,3 +231,89 @@ END$$
 DELIMITER ;
 
 ```
+
+===
+
+#### 🔁 Entendiendo los Triggers o Disparadores
+
+<img src="img/herr_avan/trigg/trigg_1.png" alt="procedimiento 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+#### 🔁 Partes de los Trigger
+
+<img src="img/herr_avan/trigg/trigg_2.png" alt="procedimiento 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+#### 🔁 Código Básico Ejemplo para un Trigger
+
+```sql
+-- Asumiendo la existencia de estas 2 tablas
+-- cada vez que un salario sea modificado notificarlo en la tabla auditoria_empleados
+
+CREATE TABLE empleados (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100),
+    salario DECIMAL(10, 2)
+);
+
+CREATE TABLE auditoria_empleados (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    empleado_id INT,
+    viejo_salario DECIMAL(10, 2),
+    nuevo_salario DECIMAL(10, 2),
+    fecha_modificacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Trigger:
+
+DELIMITER $$
+
+CREATE TRIGGER after_salario_update
+AFTER UPDATE ON empleados
+FOR EACH ROW
+BEGIN
+    IF OLD.salario != NEW.salario THEN
+        INSERT INTO auditoria_empleados (empleado_id, viejo_salario, nuevo_salario)
+        VALUES (OLD.id, OLD.salario, NEW.salario);
+    END IF;
+END$$
+
+DELIMITER ;
+```
+
+---
+
+#### 🔁 Código Intermedio Ejemplo para un Trigger
+
+```sql
+-- Queremos asegurarnos de que ningún empleado reciba un aumento de salario mayor al 50% en una sola actualización.
+-- Si el aumento es mayor al 50%, el trigger revertirá el cambio y lanzará un error.
+-- También registrará cualquier cambio válido en la tabla auditoria_empleados.
+
+DELIMITER $$
+
+CREATE TRIGGER before_salario_update
+BEFORE UPDATE ON empleados
+FOR EACH ROW
+BEGIN
+    DECLARE salario_aumento DECIMAL(10, 2);
+    
+    -- Calcular el porcentaje de aumento
+    SET salario_aumento = (NEW.salario - OLD.salario) / OLD.salario * 100;
+
+    -- Verificar si el aumento es mayor al 50%
+    IF salario_aumento > 50 THEN
+        -- Lanzar un error para evitar el aumento
+        SIGNAL SQLSTATE '45000' 
+        SET MESSAGE_TEXT = 'El aumento no puede ser mayor al 50% del salario anterior';
+    ELSE
+        -- Registrar los cambios válidos en la auditoría
+        INSERT INTO auditoria_empleados (empleado_id, viejo_salario, nuevo_salario)
+        VALUES (OLD.id, OLD.salario, NEW.salario);
+    END IF;
+END$$
+
+DELIMITER ;
+```

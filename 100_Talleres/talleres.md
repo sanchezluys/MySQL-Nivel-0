@@ -54,18 +54,18 @@
 
 ---
 
-#### 📊 Workbench - Community
+#### 📊 Workbench - Community 1
 
 <img src="100_Talleres/d_3.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 📊 Workbench - Community
+#### 📊 Workbench - Community 2
 
 <img src="100_Talleres/d_4.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 📊 Workbench - Community
+#### 📊 Workbench - Community 3
 
 <img src="100_Talleres/d_5.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
