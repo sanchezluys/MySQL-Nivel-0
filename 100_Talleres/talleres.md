@@ -45,19 +45,19 @@
 
 ---
 
-#### 📊 Workbench - Community 1
+#### 📊 Versiones
 
 <img src="100_Talleres/d_3.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 📊 Workbench - Community 2
+#### 📊 Link escondido
 
 <img src="100_Talleres/d_4.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 📊 Workbench - Community 3
+#### 📊 Descargando...
 
 <img src="100_Talleres/d_5.png" alt="sitio oficial"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
@@ -100,5 +100,7 @@
     <li><strong>Contraseña:</strong> <code>tu_clave_secreta</code></li>
   </ul>
   <hr>
+</p>
+  <p class="fragment" data-fragment-index="3" style="text-align: left;">
   Puedes probar la conexión para asegurarte de que todo esté configurado correctamente.
 </p>
