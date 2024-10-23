@@ -92,10 +92,10 @@
 #### 🔨 Credenciales
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-  2. <strong>🔑 Configurar la conexión con MySQL</strong>: Ingresa los datos de tu servidor MySQL.
+  1. <strong>🔑 Configurar la conexión con MySQL</strong>: Ingresa los datos de tu servidor MySQL.
   <ul class="fragment" data-fragment-index="2">
-    <li><strong>Host:</strong> <code>tu-host.com</code></li>
-    <li><strong>Puerto:</strong> <code>3306</code> (puerto predeterminado de MySQL)</li>
+    <li><strong>Host:</strong> <code>tu-host.com / IP</code></li>
+    <li><strong>Puerto:</strong> <code>3306</code> (por defecto MySQL)</li>
     <li><strong>Usuario:</strong> <code>tu_usuario</code></li>
     <li><strong>Contraseña:</strong> <code>tu_clave_secreta</code></li>
   </ul>
