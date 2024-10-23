@@ -62,18 +62,47 @@
 
 ===
 
-#### 📊 Introducción a un Proyecto Desarrollo IT
+#### 🚀 Introducción a un Proyecto Desarrollo IT
 
 <img src="0_Introduccion/proyecto_1.jpg" alt="vista 1"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-#### 📊 FrontEnd
+#### 🚀 FrontEnd
 
 <img src="0_Introduccion/frontend_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-#### 📊 BackEnd
+#### 🚀 BackEnd
 
 <img src="0_Introduccion/backend_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+#### 🚀 Importancia de los datos
+
+<img src="0_Introduccion/importancia_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+#### 🚀 Tipos de escritura en el mundo IT
+
+<p class="fragment" data-fragment-index="1" style="text-align: left;">
+  1. <strong>🐫 Camel Case</strong>: Es una convención en la que cada palabra, excepto la primera, comienza con una letra mayúscula, como <code>miVariableEjemplo</code>.
+</p>
+<p class="fragment" data-fragment-index="2" style="text-align: left;">
+  2. <strong>🧵 Snake Case</strong>: Utiliza guiones bajos entre palabras, como <code>mi_variable_ejemplo</code>.
+</p>
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+  3. <strong>🅰️ Pascal Case</strong>: Es similar a Camel Case, pero con la diferencia de que todas las palabras comienzan con mayúscula, como <code>MiVariableEjemplo</code>.
+</p>
+<p class="fragment" data-fragment-index="4" style="text-align: left;">
+  4. <strong>📛 Kebab Case</strong>: Las palabras se separan por guiones, como <code>mi-variable-ejemplo</code>.
+</p>
+<p class="fragment" data-fragment-index="5" style="text-align: left;">
+  5. <strong>📄 Upper Case Snake</strong>: Las palabras se escriben en mayúsculas y se separan por guiones bajos, como <code>MI_VARIABLE_EJEMPLO</code>.
+</p>
+<p class="fragment" data-fragment-index="5" style="text-align: left;">
+  6. <strong>📄 Otros Casos</strong>: Train Case (Nombre-Usuario), Flat Case (nombreusuario), Dot Notation (nombre.usuario), Hungarian Notation (strNombreUsuario)
+</p>
