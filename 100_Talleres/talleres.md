@@ -92,18 +92,13 @@
 #### 🔨 Credenciales
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
-  1. <strong>🔧 Configurar MySQL Workbench</strong>: Una vez instalado, abre MySQL Workbench. En la pantalla principal, selecciona la opción para crear una nueva conexión con tu servidor MySQL.
-</p>
-<p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔑 Configurar la conexión con MySQL</strong>: Ingresa los datos de tu servidor MySQL.
-  <ul>
+  <ul class="fragment" data-fragment-index="2">
     <li><strong>Host:</strong> <code>tu-host.com</code></li>
     <li><strong>Puerto:</strong> <code>3306</code> (puerto predeterminado de MySQL)</li>
     <li><strong>Usuario:</strong> <code>tu_usuario</code></li>
     <li><strong>Contraseña:</strong> <code>tu_clave_secreta</code></li>
   </ul>
+  <hr>
   Puedes probar la conexión para asegurarte de que todo esté configurado correctamente.
-</p>
-<p class="fragment" data-fragment-index="3" style="text-align: left;">
-  3. <strong>🖱️ Conectar y empezar a usar</strong>: Haz clic en "OK" para guardar la configuración de la conexión y luego en "Connect". Ahora puedes empezar a usar MySQL Workbench para gestionar tus bases de datos.
 </p>
