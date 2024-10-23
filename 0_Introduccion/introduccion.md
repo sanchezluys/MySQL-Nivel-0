@@ -103,6 +103,6 @@
 <p class="fragment" data-fragment-index="5" style="text-align: left;">
   5. <strong>📄 Upper Case Snake</strong>: Las palabras se escriben en mayúsculas y se separan por guiones bajos, como <code>MI_VARIABLE_EJEMPLO</code>.
 </p>
-<p class="fragment" data-fragment-index="5" style="text-align: left;">
+<p class="fragment" data-fragment-index="6" style="text-align: left;">
   6. <strong>📄 Otros Casos</strong>: Train Case (Nombre-Usuario), Flat Case (nombreusuario), Dot Notation (nombre.usuario), Hungarian Notation (strNombreUsuario)
 </p>
