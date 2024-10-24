@@ -80,6 +80,12 @@
 
 ---
 
+#### 🚀 Interfaces -- BD --- ¿Qué son?
+
+<img src="0_Introduccion/workbench_2.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
 #### 🚀 Importancia de los datos
 
 <img src="0_Introduccion/importancia_1.png" alt="front"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
@@ -104,5 +110,5 @@
   5. <strong>📄 Upper Case Snake</strong>: Las palabras se escriben en mayúsculas y se separan por guiones bajos, como <code>MI_VARIABLE_EJEMPLO</code>.
 </p>
 <p class="fragment" data-fragment-index="6" style="text-align: left;">
-  6. <strong>📄 Otros Casos</strong>: Train Case (Nombre-Usuario), Flat Case (nombreusuario), Dot Notation (nombre.usuario), Hungarian Notation (strNombreUsuario)
+  6. <strong>🐭 Otros Casos</strong>: Train Case (Nombre-Usuario), Flat Case (<code>nombreusuario</code>), Dot Notation (<code>nombre.usuario</code>), Hungarian Notation (<code>strNombreUsuario</code>)
 </p>
