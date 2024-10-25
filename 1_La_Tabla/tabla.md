@@ -164,13 +164,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de UNIQUE</strong>:
   - Simple (una columna):
-    ```sql
+    <code>
     email VARCHAR(100) UNIQUE
-    ```
+    </code>
   - Compuesto (múltiples columnas):
-    ```sql
+    <code>
     UNIQUE KEY (codigo_pais, numero_documento)
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -197,13 +197,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de BINARY</strong>:
   - Longitud fija:
-    ```sql
+    <code>
     token BINARY(16)
-    ```
+    </code>
   - Longitud variable:
-    ```sql
+    <code>
     hash_password VARBINARY(64)
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -227,13 +227,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de UNSIGNED</strong>:
   - Enteros:
-    ```sql
+    <code>
     edad TINYINT UNSIGNED
-    ```
+    </code>
   - IDs o claves foráneas:
-    ```sql
+    <code>
     usuario_id INT UNSIGNED
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -256,13 +256,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de ZEROFILL</strong>:
   - Entero con relleno de ceros:
-    ```sql
+    <code>
     codigo_producto INT ZEROFILL
-    ```
+    </code>
   - Longitud fija:
-    ```sql
+    <code>
     numero_cuenta INT(8) ZEROFILL
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -285,13 +285,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de AUTO_INCREMENT</strong>:
   - Entero estándar:
-    ```sql
+    <code>
     id INT AUTO_INCREMENT
-    ```
+    </code>
   - Entero sin signo para maximizar el rango:
-    ```sql
+    <code>
     id INT UNSIGNED AUTO_INCREMENT
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -315,13 +315,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de COLUMNAS GENERADAS</strong>:
   - Generadas almacenadas (valor calculado y almacenado):
-    ```sql
+    <code>
     total_con_impuesto DECIMAL(10,2) GENERATED ALWAYS AS (precio * 1.19) STORED
-    ```
+    </code>
   - Generadas virtuales (calculado cada vez que se consulta):
-    ```sql
+    <code>
     nombre_completo VARCHAR(255) GENERATED ALWAYS AS (CONCAT(nombre, ' ', apellido)) VIRTUAL
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
@@ -345,13 +345,13 @@
 <p class="fragment" data-fragment-index="2" style="text-align: left;">
   2. <strong>🔄 Tipos de DEFAULT o EXPRESSIONS</strong>:
   - Valor por defecto simple:
-    ```sql
-    estado VARCHAR(20) DEFAULT 'pendiente'
-    ```
+<code>
+estado VARCHAR(20) DEFAULT 'pendiente'
+</code>
   - Expresión de función para valor dinámico:
-    ```sql
+    <code>
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    ```
+    </code>
 </p>
 
 <p class="fragment" data-fragment-index="3" style="text-align: left;">
