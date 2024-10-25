@@ -26,9 +26,9 @@
 
 <img src="1_La_Tabla/t_4.png" alt="tabla 4"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
-===
+---
 
-### Nombre de la columna
+### 📝 Nombre de la columna
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>📝 Usar snake_case</strong>: Escribe todos los nombres en minúsculas usando guiones bajos para separar palabras. Por ejemplo:
@@ -51,9 +51,10 @@
   - es_activo (✅ para booleanos)
   - fecha_creacion (✅ para timestamps)
 </p>
+
 ---
 
-### Tipo de Dato
+### 🔢 Tipo de Dato
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🔢 Datos Numéricos</strong>:
@@ -89,7 +90,7 @@
 
 ---
 
-### **PK** llave primaria
+### 🔑 **PK** llave primaria
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🔑 Estructura Básica PK</strong>:
@@ -118,7 +119,7 @@
 
 ---
 
-### **NN** No Nulo
+### ❗ **NN** No Nulo
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>❗ Cuándo usar NOT NULL</strong>:
@@ -149,7 +150,7 @@
 
 ---
 
-### **UQ** Valor Unico
+### 🎯 **UQ** Valor Unico
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar UNIQUE</strong>:
@@ -183,7 +184,7 @@
 
 ---
 
-### **B** Columna Binaria
+### 🔄 **B** Columna Binaria
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar BINARY</strong>:
@@ -215,7 +216,7 @@
 
 ---
 
-### **UN** sin signo
+### ⚡ **UN** sin signo
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar UNSIGNED</strong>:
@@ -244,7 +245,7 @@
 
 ---
 
-### **ZF** Relleno con ceros - Zero Fill
+### 🕹️ **ZF** Relleno con ceros - Zero Fill
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar ZEROFILL</strong>:
@@ -273,7 +274,7 @@
 
 ---
 
-### **AI** Auto incremental
+### 📞 **AI** Auto incremental
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar AUTO_INCREMENT</strong>:
@@ -303,7 +304,7 @@
 
 ---
 
-### **G** Columna Generada
+### 🏷️ **G** Columna Generada
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar COLUMNAS GENERADAS</strong>:
@@ -333,7 +334,7 @@
 
 ---
 
-### **Default/Expression** Expresión o valor por defecto
+### 📉 **Default/Expression** Expresión o valor por defecto
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar DEFAULT o EXPRESSIONS</strong>:
