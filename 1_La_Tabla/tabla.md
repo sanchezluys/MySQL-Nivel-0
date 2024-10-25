@@ -1,4 +1,4 @@
-## 📃 Primer Pilar **La Tabla**
+## 📃 Primer Pilar La Tabla
 
 <img src="1_La_Tabla/tabla_1.webp" alt="tabla"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
@@ -90,7 +90,7 @@
 
 ---
 
-### 🔑 **PK** llave primaria
+### 🔑 PK - Llave primaria
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🔑 Estructura Básica PK</strong>:
@@ -119,7 +119,7 @@
 
 ---
 
-### ❗ **NN** No Nulo
+### ❗ NN - No Nulo
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>❗ Cuándo usar NOT NULL</strong>:
@@ -150,7 +150,7 @@
 
 ---
 
-### 🎯 **UQ** Valor Unico
+### 🎯 UQ - Valor Unico
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar UNIQUE</strong>:
@@ -184,7 +184,7 @@
 
 ---
 
-### 🔄 **B** Columna Binaria
+### 🔄 B - Columna Binaria
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar BINARY</strong>:
@@ -216,7 +216,7 @@
 
 ---
 
-### ⚡ **UN** sin signo
+### ⚡ UN - Sin signo
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar UNSIGNED</strong>:
@@ -245,7 +245,7 @@
 
 ---
 
-### 🕹️ **ZF** Relleno con ceros - Zero Fill
+### 🕹️ ZF - Relleno con ceros - Zero Fill
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar ZEROFILL</strong>:
@@ -274,7 +274,7 @@
 
 ---
 
-### 📞 **AI** Auto incremental
+### 📞 AI - Auto incremental
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar AUTO_INCREMENT</strong>:
@@ -304,7 +304,7 @@
 
 ---
 
-### 🏷️ **G** Columna Generada
+### 🏷️ G - Columna Generada
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar COLUMNAS GENERADAS</strong>:
@@ -334,7 +334,7 @@
 
 ---
 
-### 📉 **Default/Expression** Expresión o valor por defecto
+### 📉 Default/Expression Expresión o valor por defecto
 
 <p class="fragment" data-fragment-index="1" style="text-align: left;">
   1. <strong>🎯 Cuándo usar DEFAULT o EXPRESSIONS</strong>:
