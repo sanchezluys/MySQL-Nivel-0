@@ -4,8 +4,9 @@ A continuación, se presentan 10 ejercicios para practicar la creación de tabla
 
 ---
 
-### 🛍️ Ejercicio 1: Tabla de Clientes
-Crea una tabla llamada `Clientes` para almacenar información de los clientes de una tienda.
+### 🌐 Ejercicio 1: Tabla de Redes Sociales
+Crea una tabla llamada `RedesSociales` para almacenar información sobre las redes sociales que usa esta generación y su nivel de popularidad.
+
 
 ### 📦 Ejercicio 2: Tabla de Productos
 Crea una tabla llamada `Productos` que almacene información sobre los productos disponibles en el inventario.
@@ -15,8 +16,9 @@ Crea una tabla llamada `Vehículos` para almacenar los registros de las vehícul
 
 ---
 
-### 👩‍💼 Ejercicio 4: Tabla de Empleados
-Crea una tabla llamada `Empleados` para registrar la información de los empleados de una empresa.
+### 🎮 Ejercicio 4: Tabla de Videojuegos
+Crea una tabla llamada `Videojuegos` que contenga información sobre los videojuegos más populares y sus características principales.
+
 
 ### 🚚 Ejercicio 5: Tabla de Proveedores
 Crea una tabla llamada `Proveedores` que contenga información sobre los proveedores de una tienda o empresa.
@@ -26,8 +28,8 @@ Crea una tabla llamada `Repuestos` para almacenar los repuestos de motos de un l
 
 ---
 
-### 📚 Ejercicio 7: Tabla de Libros
-Crea una tabla llamada `Libros` para registrar información sobre los libros disponibles en una biblioteca.
+### 📱 Ejercicio 7: Tabla de Influencers
+Crea una tabla llamada `Influencers` para almacenar datos sobre influencers populares, sus plataformas principales y la cantidad de seguidores.
 
 ### 🏥 Ejercicio 8: Tabla de Pacientes
 Crea una tabla llamada `Pacientes` para almacenar los datos de los pacientes de una clínica.
@@ -41,4 +43,3 @@ Crea una tabla llamada `Celulares` para almacenar los datos de los celulares de 
 Crea una tabla llamada `Cursos` para almacenar información de los cursos ofrecidos en una plataforma educativa.
 
 > **ℹ️ Instrucciones**: En cada ejercicio, piensa cuidadosamente qué columnas se requieren y elige los tipos de datos adecuados. Asegúrate de definir una clave primaria para cada tabla.
-
