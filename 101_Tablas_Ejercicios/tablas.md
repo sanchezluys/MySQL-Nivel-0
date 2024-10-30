@@ -1,6 +1,7 @@
 #### 🧲 Ejercicios de Creación de Tablas en MySQL 1 🧲
 
-A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL. En cada ejercicio, define las columnas, tipos de datos y clave primaria adecuados según el contexto. Son tablas **independientes**
+- A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL. 
+- En cada ejercicio, define las columnas, tipos de datos y clave primaria adecuados según el contexto. Son tablas **independientes**
 
 ---
 
@@ -48,7 +49,8 @@ Crea una tabla llamada `Cursos` para almacenar información de los cursos ofreci
 
 #### 🛠️ Ejercicios de Creación de Tablas en MySQL para el Área Industrial 🛠️
 
-A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL orientados al ámbito industrial. En cada ejercicio, define las columnas, tipos de datos y clave primaria adecuados según el contexto. Las tablas son **independientes** y se debe configurar cada columna en cuanto a si debe ser nula, sin signo, generada, etc.
+- A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL orientados al ámbito industrial. En cada ejercicio, define las columnas, tipos de datos y clave primaria adecuados según el contexto. 
+- Las tablas son **independientes** y se debe configurar cada columna en cuanto a si debe ser nula, sin signo, generada, etc.
 
 ---
 
@@ -104,7 +106,8 @@ Crea una tabla llamada `ProduccionDiaria` para almacenar los datos de producció
 
 #### 👞 Ejercicios de Creación de Tablas en MySQL para el Área de Zapaterías 👞
 
-A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL enfocadas en el mundo de las zapaterías, cubriendo aspectos como la gestión de inventario, producción, proveedores y diseños de calzado. Cada tabla es **independiente** y se debe configurar cada columna en cuanto a si debe ser nula, sin signo, generada, etc.
+- A continuación, se presentan 10 ejercicios para practicar la creación de tablas en MySQL enfocadas en el mundo de las zapaterías, cubriendo aspectos como la gestión de inventario, producción, proveedores y diseños de calzado. 
+- Cada tabla es **independiente** y se debe configurar cada columna en cuanto a si debe ser nula, sin signo, generada, etc.
 
 ---
 
