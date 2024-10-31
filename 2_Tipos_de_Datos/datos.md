@@ -1,6 +1,6 @@
 ### 🗃️ Tipos de Datos en MySQL
 
-<img src="2_Tipos_de_Datos/d_1.jpg" alt="tabla 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+<img src="2_Tipos_de_Datos/d_2.jpg" alt="tabla 2"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
