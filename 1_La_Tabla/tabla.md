@@ -361,3 +361,31 @@ estado VARCHAR(20) DEFAULT 'pendiente'
   - Asegurar que las columnas con `DEFAULT` reflejen el comportamiento esperado para evitar problemas de consistencia
   - Revisar si la base de datos soporta expresiones en `DEFAULT` para columnas calculadas
 </p>
+
+===
+
+### 📉 Tablas Dependientes e Independientes en MySQL
+
+#### Ejemplos de Tablas Independientes
+
+1. **🧑‍💼 Tabla `clientes`**
+   - Almacena información básica de los clientes, como su nombre, correo electrónico y teléfono, sin depender de otras tablas.
+
+2. **📦 Tabla `productos`**
+   - Contiene información sobre los productos disponibles, como nombre, precio y categoría. No depende de ninguna otra tabla.
+
+3. **🏢 Tabla `departamentos`**
+   - Define los departamentos dentro de una empresa (por ejemplo, ventas, recursos humanos), con datos que no dependen de otras tablas.
+
+---
+
+#### Ejemplos de Tablas Dependientes
+
+1. **🛒 Tabla `pedidos`**
+   - Depende de la tabla `clientes` para asociar cada pedido a un cliente específico, permitiendo un registro organizado de las compras de cada cliente.
+
+2. **📋 Tabla `detalles_pedido`**
+   - Depende de la tabla `pedidos` y almacena los productos de cada pedido, asociando los productos comprados con un pedido en particular.
+
+3. **👷 Tabla `empleados`**
+   - Depende de la tabla `departamentos` para indicar en qué departamento trabaja cada empleado, creando una relación de dependencia entre empleados y departamentos.
