@@ -39,10 +39,10 @@
 
 ---
 
-#### ✏️ 5. Ejercicio
+#### ✏️ 5. Ejercicios
 
 - **🏭 Ejercicio 1**: Tablas para una fábrica de zapatos deportivos.
-
 - **🥗 Ejercicio 2**: Tablas para un blog de recetas de comidas saludables.
-
 - **🧼 Ejercicio 3**: Tablas para empresa de productos químicos de limpieza.
+
+Usar [Ruleta](https://es.piliapp.com/random/wheel/)
