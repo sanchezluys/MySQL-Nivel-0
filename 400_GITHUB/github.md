@@ -1,6 +1,6 @@
-# 🗄️ Uso de GitHub para Proyectos de Bases de Datos
+### 🗄️ Uso de GitHub para Proyectos de Bases de Datos
 
-> Esta presentación explica cómo GitHub puede ayudarte en la planificación, organización y gestión de proyectos de bases de datos.
+<img src="400_GITHUB/g_1.png" alt="Tablero de Trello" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
