@@ -43,12 +43,17 @@
 
 ```yaml
 📁 base-de-datos-proyecto 
-├── 📂 migraciones │ 
-├── 01_crear_tablas.sql │ 
-├── 02_insertar_datos.sql │ 
+├── 📂 migraciones 
+│ 
+├── 01_crear_tablas.sql 
+│ 
+├── 02_insertar_datos.sql 
+│ 
 └── 03_actualizar_esquema.sql 
-├── 📂 scripts │ 
-├── consulta_usuarios.sql │
+├── 📂 scripts 
+│ 
+├── consulta_usuarios.sql 
+│
 └── actualizar_precios.sql 
 ├── 📝 README.md 
 └── 📄 LICENCIA
