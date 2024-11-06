@@ -29,14 +29,14 @@
 
 ---
 
-### * / COLUMNAS 📚
+### * / COLUMNAS 📜
 
 - Todas las columnas `SELECT *`
 - Seleccionando las columnas `SELECT col1, col2, col3`
 
 ---
 
-### Alias en las Columnas 📚
+### Alias en las Columnas 🐔
 
 - Seleccionando las columnas `SELECT col1 as id, col2 as nombre, col3 as edad`
 
@@ -55,7 +55,7 @@
 
 ===
 
-### LIMIT 📍
+### LIMIT 👋
 
 - **`LIMIT`**: Restringe el número de filas que se devuelven en el conjunto de resultados.
 - **Propósito**: Controlar la cantidad de datos retornados, optimizando el rendimiento y la legibilidad.
@@ -69,14 +69,21 @@
 
 ===
 
-### ORDER BY 📍
+### ORDER BY 📝
 
 - **`ORDER BY`**: Ordena el conjunto de resultados según una o más columnas especificadas.
 - **Propósito**: Presentar los datos de manera lógica y fácil de analizar.
 
 ---
 
-### ORDER BY ASCENDENTE Y DESCENDENTE 📚
+### ORDER BY ASCENDENTE Y DESCENDENTE ⚠️
 
 - Ascendente `SELECT * FROM tabla1 ORDER BY col1 ASC`
 - Descendente `SELECT * FROM tabla1 ORDER BY col1 DESC`
+
+---
+
+### ORDER BY MULTICOLUMNAS 🗃️
+
+- Se puede aplicar a varias columnas 
+- Ejemplo `SELECT * FROM tabla1 ORDER BY col1 ASC, col2 DESC`
