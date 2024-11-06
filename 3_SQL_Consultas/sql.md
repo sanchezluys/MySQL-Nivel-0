@@ -26,11 +26,16 @@
 
 - **Título:** Navegando por tus Datos con `SELECT`
 - **Subtítulo:** La clave para recuperar información en MySQL 🗝️
-- **Imagen:**![MySQL Logo](https://cdn.mysql.com/mysql/img/mysql-logo.png) *opcional*
 
 ---
 
 ### * / COLUMNAS 📚
 
-- **Título:** todas las columnas `SELECT *`
-- **Título:** Seleccionando las columnas `SELECT col1, col2, col3`
+- Todas las columnas `SELECT *`
+- Seleccionando las columnas `SELECT col1, col2, col3`
+
+---
+
+### Alias en las Columnas 📚
+
+- Seleccionando las columnas `SELECT col1 as id, col2 as nombre, col3 as edad`
