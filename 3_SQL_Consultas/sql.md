@@ -71,11 +71,12 @@
 
 ### ORDER BY 📍
 
-- Seleccionando las tablas con `FROM tabla1`
-- Se pueden seleccionar varias tablas `FROM tabla1, tabla2`
+- **`ORDER BY`**: Ordena el conjunto de resultados según una o más columnas especificadas.
+- **Propósito**: Presentar los datos de manera lógica y fácil de analizar.
 
 ---
 
-### Alias en las Tablas 📚
+### ORDER BY ASCENDENTE Y DESCENDENTE 📚
 
-- Usando el alias `FROM tabla1 as t1, tabla2 as t2`
+- Ascendente `SELECT * FROM tabla1 ORDER BY col1 ASC`
+- Descendente `SELECT * FROM tabla1 ORDER BY col1 DESC`
