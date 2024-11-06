@@ -39,3 +39,16 @@
 ### Alias en las Columnas 📚
 
 - Seleccionando las columnas `SELECT col1 as id, col2 as nombre, col3 as edad`
+
+===
+
+### FROM 📍
+
+- Seleccionando las tablas con `FROM tabla1`
+- Se pueden seleccionar varias tablas `FROM tabla1, tabla2`
+
+---
+
+### Alias en las Tablas 📚
+
+- Usando el alias `FROM tabla1 as t1, tabla2 as t2`
