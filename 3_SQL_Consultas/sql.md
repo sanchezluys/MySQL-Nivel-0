@@ -52,3 +52,30 @@
 ### Alias en las Tablas 📚
 
 - Usando el alias `FROM tabla1 as t1, tabla2 as t2`
+
+===
+
+### LIMIT 📍
+
+- **`LIMIT`**: Restringe el número de filas que se devuelven en el conjunto de resultados.
+- **Propósito**: Controlar la cantidad de datos retornados, optimizando el rendimiento y la legibilidad.
+
+---
+
+### Limit normal y con offset 📈
+
+- Limit normal `SELECT * FROM tabla1 LIMIT 2`
+- Limit con offset `SELECT * FROM tabla2 LIMIT 3,2`
+
+===
+
+### ORDER BY 📍
+
+- Seleccionando las tablas con `FROM tabla1`
+- Se pueden seleccionar varias tablas `FROM tabla1, tabla2`
+
+---
+
+### Alias en las Tablas 📚
+
+- Usando el alias `FROM tabla1 as t1, tabla2 as t2`
