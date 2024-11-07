@@ -99,8 +99,13 @@
 
 ### LOGICAS BINARIAS - WHERE 🐶
 
-- **`SELECT * FROM TABLA WHERE ID=10 ORDER BY ID ASC LIMIT 1`**: Filtrar y Ordenar Datos.
-- **Propósito**: Obtener solo los datos que cumplan con condiciones especificas.
+- **`AND`**: Es verdadero solo si todas las condiciones son verdadero
+- **`OR`**: Es verdadero si alguna de las condiciones es verdadero
+
+```sql
+(A>B) AND (M=0)
+(H<=K) OR (S>0)
+```
 
 ---
 
