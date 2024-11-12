@@ -67,11 +67,9 @@
 - 📋 Issues y Proyectos: Usa issues para registrar tareas pendientes y proyectos para organizar el flujo de trabajo.
 - 📖 GitHub Wiki: Utiliza la Wiki para documentar la estructura de la base de datos, relaciones, y otros detalles técnicos.
 
----
-
 ===
 
-### 🖨️ 1. Creando el Perfil con IA
+### 🖨️ 1. Creando el Perfil con Plantilla o con IA
 
 <img src="400_GITHUB/perfil_1.png" alt="perfil github" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
