@@ -69,6 +69,26 @@
 
 ---
 
+===
+
+### 🖨️ 1. Creando el Perfil con IA
+
+<img src="400_GITHUB/perfil_1.png" alt="perfil github" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### 🗃️ 2. Creando un Repositorio
+
+<img src="400_GITHUB/repo_2.png" alt="Repositorio ejemplo" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### 📃 3. Partes de un Repositorio de Bases de Datos
+
+<img src="400_GITHUB/repo_1.png" alt="Repositorio ejemplo" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
 ### 🏁 Conclusión
 
 GitHub es una poderosa herramienta para gestionar proyectos de bases de datos. Ayuda a mantener un historial de cambios claro, facilita la colaboración y organiza toda la documentación en un solo lugar.
