@@ -107,7 +107,7 @@
 (H<=K) OR (S>0)
 ```
 
----
+===
 
 ### USO DE FUNCIONES 🧑‍🎄
 
@@ -212,4 +212,28 @@ SELECT
     END AS resultado_case,
     COALESCE(NULL, 'Valor por defecto', 'Otro valor') AS resultado_coalesce
 FROM dual;
+```
+
+===
+
+### Uso de Variables
+
+<img src="3_SQL_Consultas/var_1.png" alt="variables" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### Creando Variables en MySQL 🤔
+
+- Las variables se declaran con la palabra reservada: `SET`
+- El nombre de la variable debe tener de prefijo el arroba `@`
+- Se pueden crear varias variables a la vez separando por comas
+- Se les debe asignar un valor al crearlas.
+
+Ejemplo:
+
+```sql
+SET @VAR1=1,
+    @VAR2="LUIS",
+    @VAR3=TRUE,
+    @VAR4="12-05-24";
 ```
