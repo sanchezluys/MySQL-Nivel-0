@@ -184,7 +184,7 @@ SELECT * FROM productos WHERE descripcion IS NULL;
 
 ---
 
-### LOGICAS BINARIAS - WHERE + AND / OR / NOT 🐶
+### LOGICAS BINARIAS - WHERE + AND / OR  🐶
 
 - **`AND`**: Es verdadero solo si todas las condiciones son verdadero
 - **`OR`**: Es verdadero si alguna de las condiciones es verdadero
@@ -192,6 +192,24 @@ SELECT * FROM productos WHERE descripcion IS NULL;
 ```sql
 -- Seleccionar productos con precio mayor a 50 y categoría 'Electrónica'
 SELECT * FROM productos WHERE precio > 50 AND categoria = 'Electrónica';
+```
+
+---
+
+### LOGICAS BINARIAS - WHERE + NOT ⚠️
+
+- Negación
+- Invierte el resultado de una condición
+
+```sql
+-- Seleccionar productos que no pertenezcan a la categoría 'Electrónica'.
+SELECT * FROM productos WHERE NOT categoria = 'Electrónica';
+
+--Seleccionar productos cuyo nombre no comience con 'Cam'.
+SELECT * FROM productos WHERE NOT nombre LIKE 'Cam%';
+
+-- Seleccionar productos cuyo precio no esté entre 50 y 100.
+SELECT * FROM productos WHERE NOT precio BETWEEN 50 AND 100;
 ```
 
 ---
