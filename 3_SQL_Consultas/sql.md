@@ -92,20 +92,120 @@
 
 ### CONSULTA INTERMEDIA - WHERE 👀
 
-- **`SELECT * FROM TABLA WHERE ID=10 ORDER BY ID ASC LIMIT 1`**: Filtrar y Ordenar Datos.
+- **`SELECT * FROM TABLA WHERE ID>10 ORDER BY ID ASC LIMIT 5`**: Filtrar y Ordenar Datos.
 - **Propósito**: Obtener solo los datos que cumplan con condiciones especificas.
 
 ---
 
-### LOGICAS BINARIAS - WHERE 🐶
+### FILTROS EN MYSQL - WHERE + = 🐬
+
+- Igualdad `=`
+- Filtra registros donde una columna tiene un valor específico.
+
+```sql
+-- Seleccionar productos con un precio igual a 100
+SELECT * FROM productos WHERE precio = 100;
+```
+
+---
+
+
+### FILTROS EN MYSQL - WHERE + != ✅
+
+- Diferente `<>`, `!=`
+- Filtra registros donde una columna tiene un valor distinto.
+
+```sql
+-- Seleccionar productos que no pertenezcan a la categoría 'Electrónica'.
+SELECT * FROM productos WHERE categoria <> 'Electrónica';
+```
+
+---
+
+### FILTROS EN MYSQL - WHERE + >,< 🐶
+
+- Mayor o menor que `>`, `<`, `<=`, `>=`
+- Filtra registros donde una columna tiene un valor mayor o menor que.
+
+```sql
+SELECT * FROM productos WHERE costo >= 15;
+```
+
+---
+
+### FILTROS EN MYSQL - WHERE + BETWEEN 🧲
+
+- Rango de valores
+- Filtra registros dentro de un rango definido
+
+```sql
+-- Seleccionar productos con precio entre 50 y 100.
+SELECT * FROM productos WHERE precio BETWEEN 50 AND 100;
+```
+
+---
+
+### FILTROS EN MYSQL - WHERE + IN 🚀
+
+- Lista de valores
+- Filtra registros dentro de un rango definido
+
+```sql
+-- Filtrar productos que pertenezcan a 'Electrónica', 'Ropa' o 'Juguetes'.
+SELECT * FROM productos WHERE categoria IN ('Electrónica', 'Ropa', 'Juguetes');
+```
+
+---
+
+### FILTROS EN MYSQL - WHERE + LIKE 🔑
+
+- Coincidencia de patrones
+- Filtra registros basándose en patrones.
+- %: Coincide con cualquier cantidad de caracteres.
+- _: Coincide con un solo carácter.
+
+```sql
+-- Seleccionar productos cuyo nombre comience con 'Cam'.
+SELECT * FROM productos WHERE nombre LIKE 'Cam%';
+```
+
+---
+
+### FILTROS EN MYSQL - WHERE + IS NULL / IS NOT NULL 🤘
+
+- Valores nulos
+- `IS NULL`: Filtra registros con valores nulos.
+- `IS NOT NULL`: Filtra registros con valores no nulos.
+
+```sql
+-- Seleccionar productos sin descripción
+SELECT * FROM productos WHERE descripcion IS NULL;
+```
+
+---
+
+### LOGICAS BINARIAS - WHERE + AND / OR / NOT 🐶
 
 - **`AND`**: Es verdadero solo si todas las condiciones son verdadero
 - **`OR`**: Es verdadero si alguna de las condiciones es verdadero
 
 ```sql
-(A>B) AND (M=0)
-(H<=K) OR (S>0)
+-- Seleccionar productos con precio mayor a 50 y categoría 'Electrónica'
+SELECT * FROM productos WHERE precio > 50 AND categoria = 'Electrónica';
 ```
+
+---
+
+### FILTROS EN MYSQL - WHERE + REGEX 🦊
+
+- Filtra registros basados en patrones más complejos.
+
+```sql
+-- Seleccionar productos cuyo nombre empiece con 'Cam' o 'Zap'
+SELECT * FROM productos WHERE nombre REGEXP '^Cam|Zap';
+```
+
+---
 
 ===
 
