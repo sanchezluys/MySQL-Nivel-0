@@ -353,3 +353,15 @@ SET @VAR1=1,
     @VAR3=TRUE,
     @VAR4="12-05-24";
 ```
+
+---
+
+### Utilidad de las variables en MySQL 🤔
+
+- 🚀 Mejora el rendimiento de las consultas
+- 🧩 Facilita operaciones complejas
+- 🔄 Reutilización de valores
+- 🔧 Control de flujo en procedimientos almacenados
+- 📚 Mayor legibilidad y mantenimiento
+- ⚠️ Evita errores de repetición
+- ⚡ Optimización de subconsultas
