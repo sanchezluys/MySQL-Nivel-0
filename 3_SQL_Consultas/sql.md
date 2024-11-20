@@ -365,3 +365,25 @@ SET @VAR1=1,
 - 📚 Mayor legibilidad y mantenimiento
 - ⚠️ Evita errores de repetición
 - ⚡ Optimización de subconsultas
+
+---
+
+### Dato vacío, con valor y nulo (NULL)
+
+<img src="3_SQL_Consultas/dato_null_1.png" alt="motores" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+===
+
+### Motores / Engine
+
+<img src="3_SQL_Consultas/motores_1.jpg" alt="motores" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### Tipos de motores
+
+- 🛠️ InnoDB
+- 📦 MyISAM
+- 💾 MEMORY
+- 📄 CSV
+- 🗄️ ARCHIVE
