@@ -28,7 +28,7 @@
 
 ---
 
-### 1️⃣:M️ Relación Uno a Muchos
+### 1️⃣:🧑‍🤝‍🧑 Relación Uno a Muchos
 
 - 🏷️ Una entidad A se asocia con múltiples registros en la entidad B
 - 🔗 Cada registro de A puede estar vinculado a varios registros de B
@@ -58,13 +58,13 @@
 
 ### Ejemplo 1: Empleado y Dirección 🏠
 
-## Tabla: Empleados
+#### Tabla: Empleados
 | EmpleadoID | Nombre   |
 |------------|----------|
 | 1          | Juan     |
 | 2          | María    |
 
-## Tabla: Direcciones
+#### Tabla: Direcciones
 | EmpleadoID | Dirección         |
 |------------|-------------------|
 | 1          | Calle Falsa 123   |
