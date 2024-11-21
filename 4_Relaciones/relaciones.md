@@ -58,9 +58,11 @@
 
 ### Ejemplo 1: Empleado y Dirección 🏠
 
-<div class="mermaid"> 
-graph TD; A[Empleado: Juan] -->|1:1| B[Dirección: Calle Falsa 123]; C[Empleado: María] -->|1:1| D[Dirección: Avenida Siempreviva 742]; 
-</div>
+```mermaid
+graph TD; 
+A[Empleado: Juan] -->|1:1| B[Dirección: Calle Falsa 123]; 
+C[Empleado: María] -->|1:1| D[Dirección: Avenida Siempreviva 742]; 
+```
 
 ===
 
