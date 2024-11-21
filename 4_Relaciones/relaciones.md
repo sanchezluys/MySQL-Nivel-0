@@ -58,9 +58,9 @@
 
 ### Ejemplo 1: Empleado y Dirección 🏠
 
-<pre><code class="language-mermaid"> 
+<div class="mermaid"> 
 graph TD; A[Empleado: Juan] -->|1:1| B[Dirección: Calle Falsa 123]; C[Empleado: María] -->|1:1| D[Dirección: Avenida Siempreviva 742]; 
-</code></pre>
+</div>
 
 ===
 
