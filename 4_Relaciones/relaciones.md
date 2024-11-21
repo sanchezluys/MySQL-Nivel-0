@@ -56,13 +56,9 @@
 
 ---
 
-### Ejemplo 1: Empleado y Dirección 🏠
+### Ejemplo 1: Persona Pasaporte 🏠
 
-<div class="mermaid"> 
-graph TD; 
-A[Empleado: Juan] --> B[Dirección: Calle Falsa 123]; 
-C[Empleado: María] --> D[Dirección: Avenida Siempreviva 742]; 
-</div>
+<img src="4_Relaciones/per_pas_1.png" alt="persona pasaporte" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ===
 
