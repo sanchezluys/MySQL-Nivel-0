@@ -58,17 +58,10 @@
 
 ### Ejemplo 1: Empleado y Dirección 🏠
 
-#### Tabla: Empleados
-| EmpleadoID | Nombre   |
-|------------|----------|
-| 1          | Juan     |
-| 2          | María    |
-
-#### Tabla: Direcciones
-| EmpleadoID | Dirección         |
-|------------|-------------------|
-| 1          | Calle Falsa 123   |
-| 2          | Avenida Siempreviva 742 |
+```mermaid 
+graph TD; 
+A[Empleado: Juan] -->|1:1| B[Dirección: Calle Falsa 123]; C[Empleado: María] -->|1:1| D[Dirección: Avenida Siempreviva 742];
+```
 
 ===
 
