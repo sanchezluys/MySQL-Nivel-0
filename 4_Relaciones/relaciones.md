@@ -54,6 +54,22 @@
 
 <img src="4_Relaciones/rel_1a1_1.png" alt="uno a uno" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
+---
+
+### Ejemplo 1: Empleado y Dirección 🏠
+
+## Tabla: Empleados
+| EmpleadoID | Nombre   |
+|------------|----------|
+| 1          | Juan     |
+| 2          | María    |
+
+## Tabla: Direcciones
+| EmpleadoID | Dirección         |
+|------------|-------------------|
+| 1          | Calle Falsa 123   |
+| 2          | Avenida Siempreviva 742 |
+
 ===
 
 ### Relación 1:M 🛠️
