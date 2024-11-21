@@ -60,6 +60,18 @@
 
 <img src="4_Relaciones/per_pas_1.png" alt="persona pasaporte" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
+---
+
+### Ejemplo 2: Usuario - Cuenta Bancaria 🐶
+
+<img src="4_Relaciones/us_cuenta_1.png" alt="persona cuenta bancaria" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### Ejemplo 3: Usuario - Licencia de Conducir ⛱️
+
+<img src="4_Relaciones/rel_1a1_3.png" alt="persona cuenta bancaria" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
 ===
 
 ### Relación 1:M 🛠️
