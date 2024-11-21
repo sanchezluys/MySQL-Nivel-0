@@ -52,10 +52,16 @@
 
 ### Relación 1:1
 
+<img src="4_Relaciones/rel_1a1_1.png" alt="uno a uno" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
 ===
 
 ### Relación 1:M
 
+<img src="4_Relaciones/rel_1am_1.png" alt="uno a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
 ===
 
 ### Relación M:M
+
+<img src="4_Relaciones/rel_mam_1.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
