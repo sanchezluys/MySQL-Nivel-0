@@ -58,10 +58,9 @@
 
 ### Ejemplo 1: Empleado y Dirección 🏠
 
-<section data-markdown> <textarea data-template> 
-## Ejemplo 2: Autor y Biografía 📖 
-```mermaid graph TD; E[Autor: Gabriel García Márquez] -->|1:1| F[Biografía: Escritor colombiano...]; G[Autor: Isabel Allende] -->|1:1| H[Biografía: Escritora chilena...]; ``` </textarea> 
-</section>
+<pre><code class="language-mermaid"> 
+graph TD; A[Empleado: Juan] -->|1:1| B[Dirección: Calle Falsa 123]; C[Empleado: María] -->|1:1| D[Dirección: Avenida Siempreviva 742]; 
+</code></pre>
 
 ===
 
