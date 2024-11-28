@@ -425,6 +425,8 @@ MySQL es un sistema de gestión de bases de datos relacional que permite elegir 
 2. 📈 **Mejor rendimiento para transacciones**: Soporte completo de transacciones.
 3. 🛡️ **Recuperación confiable**: Protege contra fallos gracias a su sistema de logs.
 
+---
+
 #### ⚡ **Ventajas de MyISAM**
 1. 🚀 **Consultas rápidas**: Optimizado para operaciones de lectura.
 2. 📁 **Almacenamiento sencillo**: Menor consumo de disco y memoria.
