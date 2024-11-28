@@ -442,5 +442,3 @@ MySQL es un sistema de gestión de bases de datos relacional que permite elegir 
 | 📚 **Sistema de biblioteca**           | **InnoDB**: Integridad referencial. |
 | 📊 **Generación de reportes simples**  | **MyISAM**: Consultas rápidas. |
 | 📄 **Blogs o sitios web estáticos**    | **MyISAM**: Almacenamiento eficiente. |
-
----
