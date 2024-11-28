@@ -387,3 +387,58 @@ SET @VAR1=1,
 - 💾 MEMORY
 - 📄 CSV
 - 🗄️ ARCHIVE
+
+---
+
+### 🚀 Comparación entre **InnoDB** y **MyISAM** en MySQL 🐬
+
+En este documento exploraremos las diferencias clave entre los motores de almacenamiento **InnoDB** y **MyISAM**, utilizados en MySQL para manejar bases de datos.
+
+---
+
+### 📌 Introducción
+
+MySQL es un sistema de gestión de bases de datos relacional que permite elegir entre diferentes motores de almacenamiento según las necesidades del proyecto. Dos de los más populares son:
+
+- **InnoDB**: Ideal para transacciones y relaciones complejas.
+- **MyISAM**: Diseñado para consultas rápidas y tablas simples.
+
+---
+
+### ⚙️ Características principales
+
+| Característica           | 🛠️ **InnoDB**                    | ⚡ **MyISAM**                   |
+|--------------------------|----------------------------------|---------------------------------|
+| **Soporte para transacciones** | ✅ Sí (ACID-compliant)         | ❌ No                           |
+| **Bloqueo de registros**     | ✅ Nivel de fila               | ❌ Nivel de tabla               |
+| **Velocidad de lectura**     | 🚀 Alta para datos complejos   | 🚀 Más rápida para tablas simples |
+| **Integridad referencial**   | ✅ Soporta claves foráneas     | ❌ No soporta                   |
+| **Consumo de memoria**       | 🧠 Mayor debido a funcionalidades | 🧠 Menor                       |
+| **Recuperación tras fallos** | ✅ Automática                  | ❌ Limitada                     |
+
+---
+
+### 📊 Comparación en profundidad
+
+#### 🌟 **Ventajas de InnoDB**
+1. 🔒 **Integridad de datos**: Manejo de claves foráneas y reglas de cascada.
+2. 📈 **Mejor rendimiento para transacciones**: Soporte completo de transacciones.
+3. 🛡️ **Recuperación confiable**: Protege contra fallos gracias a su sistema de logs.
+
+#### ⚡ **Ventajas de MyISAM**
+1. 🚀 **Consultas rápidas**: Optimizado para operaciones de lectura.
+2. 📁 **Almacenamiento sencillo**: Menor consumo de disco y memoria.
+3. 🛠️ **Ideal para proyectos simples**: Perfecto para bases de datos pequeñas.
+
+---
+
+### 📂 Casos de uso
+
+| Proyecto                               | Recomendación              |
+|---------------------------------------|---------------------------|
+| 🛒 **Sistema de e-commerce**           | **InnoDB**: Soporte transaccional. |
+| 📚 **Sistema de biblioteca**           | **InnoDB**: Integridad referencial. |
+| 📊 **Generación de reportes simples**  | **MyISAM**: Consultas rápidas. |
+| 📄 **Blogs o sitios web estáticos**    | **MyISAM**: Almacenamiento eficiente. |
+
+---
