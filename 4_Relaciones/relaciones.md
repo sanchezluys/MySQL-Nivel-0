@@ -78,6 +78,24 @@
 
 <img src="4_Relaciones/rel_1am_1.png" alt="uno a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
+---
+
+### Ejemplo: 1 **Clientes y Direcciones 🏠**
+
+<img src="4_Relaciones/rel_1_m_1.png" alt="uno a muchos 1" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### Ejemplo: 2 **Artículos y categorías 🏷️**
+
+<img src="4_Relaciones/rel_1_m_2.png" alt="uno a muchos 2" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
+---
+
+### Ejemplo: 3 **Proveedores y Productos 🏭➡️🛒**
+
+<img src="4_Relaciones/rel_1_m_3.png" alt="uno a muchos 3" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+
 ===
 
 ### Relación M:M 🧑‍🤝‍🧑
