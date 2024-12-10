@@ -104,20 +104,18 @@
 
 ---
 
-### Ejemplo 1: Vehículos y Repuestos
+### Ejemplo 1: Vehículos y Repuestos 🛒
 
 <img src="4_Relaciones/rel_m_m_1.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-### Ejemplo 2: Películas y Actores
+### Ejemplo 2: Películas y Actores ⛱️
 
 <img src="4_Relaciones/rel_m_m_2.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
-### Ejemplo 3: Proyectos y Empleados
+### Ejemplo 3: Proyectos y Empleados 🧑‍🤝‍🧑
 
 <img src="4_Relaciones/rel_m_m_3.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
-
----
