@@ -104,7 +104,7 @@
 
 ---
 
-### Ejemplo 1: Estudiantes y Cursos
+### Ejemplo 1: Vehículos y Repuestos
 
 <img src="4_Relaciones/rel_m_m_1.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
@@ -116,7 +116,7 @@
 
 ---
 
-### Ejemplo 3: Estudiantes y Cursos
+### Ejemplo 3: Proyectos y Empleados
 
 <img src="4_Relaciones/rel_m_m_3.png" alt="muchos a muchos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
