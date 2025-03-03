@@ -99,8 +99,8 @@
     <li><strong>Usuario:</strong> <code>tu_usuario</code></li>
     <li><strong>Contraseña:</strong> <code>tu_clave_secreta</code></li>
   </ul>
-  <hr>
 </p>
-  <p class="fragment" data-fragment-index="3" style="text-align: left;">
+<p class="fragment" data-fragment-index="3" style="text-align: left;">
+  <hr>
   Puedes probar la conexión para asegurarte de que todo esté configurado correctamente.
 </p>

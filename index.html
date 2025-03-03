@@ -15,25 +15,19 @@
 		<!-- Native plugins of reveal.js -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/plugin/markdown/markdown.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/plugin/math/math.js"></script>
-
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/plugin/highlight/highlight.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/plugin/highlight/zenburn.css">
-
 		<!-- Menu plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js"></script>
 		<link href=" https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css " rel="stylesheet">
-
 		<!-- Font awesome is used by several plugins -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 		<!-- Animate plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/animate/plugin.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
-
 		<!-- Anything plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/anything/plugin.js"></script>
-
 		<!-- Examples for the anything plugin -->
 		<script src="anything/rollofadie.js"></script>
 		<script src="https://gist.githack.com/rajgoel/000f227d1f9c79b6f8a4225e8c9a49ba/raw/globe.js"></script>
@@ -41,61 +35,36 @@
 		<script src="https://d3js.org/d3-request.v1.min.js"></script>
 		<script src="https://d3js.org/d3-queue.v3.min.js"></script>
 		<script src="https://d3js.org/topojson.v3.min.js"></script>
-
-		<!-- Audio slideshow plugin -->
-		<!-- <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/plugin.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/audio-slideshow/recorder.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.6.2/RecordRTC.js"></script> -->
-
 		<!-- Chalkboard plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/plugin.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/style.css">
-
 		<!-- Chart plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
-
 		<!-- Custom controls plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/style.css">
-
 		<!-- Load content plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/loadcontent/plugin.js"></script>
-
 		<!-- Fullscreen plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/fullscreen/plugin.js"></script>
-
 		<!-- Seminar plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/seminar/plugin.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
-
 		<!-- Poll plugin requires seminar plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/poll/plugin.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/poll/style.css">
-
 		<!-- Questions plugin requires seminar plugin -->
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/questions/plugin.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/questions/style.css">
-
 		<!-- Style file -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/style.css">
-
 		<!-- Customized style -->
 		<style>
 			:root {
 				--r-heading-text-shadow: none;
 				--r-heading1-text-shadow: none;
-			/*
-				--r-main-font: Helvetica, sans-serif;
-				--r-heading-font: Helvetica, sans-serif;
-				--r-heading-color: darkred;
-				--r-heading-text-transform: none;
-				--r-link-color: firebrick;
-				--r-link-color-dark: darkred;
-				--r-link-color-hover: red;
-			*/
 			}
-
 			[data-fullscreen]::after {
 				content: "";
 				display: block;
@@ -128,13 +97,10 @@
 				</section>
 			</div>
 		</div>
-
 		<script type="module">
 			import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 			mermaid.initialize({ startOnLoad: true });
 		</script>
-		
-
 		<script>
 			// list of topics
 			// the src must be found within the folder, folders must be distinct!
@@ -150,21 +116,16 @@
 				{ topic: "8 Herramientas Avanzadas", src: "herramientas_avanzadas.md", folder: "8_herramientas_avanzadas" },
 				{ topic: "100-Talleres", src: "talleres.md", folder: "100_Talleres" },
 				{ topic: "101-Tablas Ejercicios", src: "tablas.md", folder: "101_Tablas_Ejercicios" },
-				{ topic: "102-Datos Ejercicios", src: "datos.md", folder: "102_Datos_Ejercicios" },
-				{ topic: "103-SQL Ejercicios", src: "sql.md", folder: "103_SQL_Ejercicios" },
 				{ topic: "400-GitHub", src: "github.md", folder: "400_GITHUB" },
 				{ topic: "500-Trello", src: "trello.md", folder: "500_TRELLO" },
 			];
 			var topicId = getTopicId();
 			document.title = "MySQL: " + getTopic();
 			document.getElementById('pdf-link').href = getURL(topicId) + '&print-pdf';
-
 			// load topic
 			document.querySelector('section[data-markdown=""]').setAttribute("data-markdown",topics[topicId].folder + "/" + topics[topicId].src);
-
 		// Variable tracking whether slide deck is connected to seminar server
 		let isConnected = false;
-
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -288,21 +249,6 @@
 				for (var i=0; i < inlineMathCode.length; i++) {
 					inlineMathCode[i].classList.add('math');
 				}
-
-			// if ( !isConnected ) {
-			// // hide all elements that 
-			// var showOnConnected = document.querySelectorAll(".seminar.connected") || [];
-			// for (var i=0; i < showOnConnected.length; i++) {
-			// 	showOnConnected[i].style.display = 'none';
-			// }
-			// }
-
-			});
-
-			/******************************************
-			* Setup of topics
-			******************************************/
-
 			function getTopicsMenu() {
 				var topicsMenu = '<ul class="slide-menu-items">';
 				for (var i=0; i < topics.length; i++) {
@@ -311,7 +257,6 @@
 				topicsMenu += '</ul>';
 				return topicsMenu;
 			}
-
 			function getTopicId() {
 				// get topic id
 				var urlparts= window.location.href.split('?');
@@ -322,7 +267,6 @@
 						if (parts[i].lastIndexOf(prefix, 0) !== -1) {
 							var j = parts[i].lastIndexOf(prefix, 0);
 							var identifier = parts[i].substr(prefix.length,parts[i].length-prefix.length);
-
 							var id = topics.findIndex(element => element.folder == identifier);
 							if ( id < 0 ) {
 								id = Number(identifier);
@@ -333,7 +277,6 @@
 				}
 				return 0;
 			}
-
 			function nextTopic() {
 				if ( topicId >= topics.length-1 ) {
 					alert("You already reached the last slide deck!");
@@ -343,7 +286,6 @@
 				}
 				return false;
 			}
-
 			function getURL(id) {
 				var urlparts= window.location.href.split('?');
 				if ( id === undefined ) {
@@ -351,95 +293,15 @@
 				}
 				return urlparts[0] + '?' + "topic=" + topics[id].folder;
 			}
-
 			function getPath() {
 				return topics[topicId].folder;
 			}
-
 			function getTopic() {
 				return topics[topicId].topic;
 			}
-
-			/******************************************
-			* Setup of seminar
-			******************************************/
-			// function getSeminarMenu() {
-
-			// 	var seminarMenu = '<p class="slide-menu-item" id="broadcast">'
-			// 		+ '<form>'
-			// 		+ '<table>'
-			// 		+ '<tr><td> User name:</td><td> <input type="text" id="username" style="font-size:80%;" size="13"></td></tr>'
-			// 		+ '<tr><td> Password:</td><td> <input type="password" id="password" style="font-size:80%;" size="13"></td></tr>'
-			// 		+ '</table>'
-			// 		+ '<button id="startSeminar" type="submit" style="margin:10px;">Start</button><button id="stopSeminar"  style="margin:10px;">Stop</button>'
-			// 		+ '</form>'
-			// 		+ '<p>Status log:</p>'
-			// 		+ '<textarea id="logger" spellcheck="false" readonly style="width:100%;height:calc(100% - 180px);background-color:black;color:white;">Trying to connect to server ...\n</textarea>'
-			// 		+ '</p>';
-			// 	return seminarMenu;
-			// }
-
-			// function initSeminarMenu() {
-			// 	var element = document.getElementById('broadcast');
-			// 	if ( element ) {
-			// 		// make sure that events are not propagated
-			// 		element.parentElement.addEventListener('keydown', consumeBroadcastEvent );
-
-			// 		var startButton = document.getElementById('startSeminar');
-			// 		if ( startButton ) {
-			// 			startButton.addEventListener('click', function(evt) {
-			// 				evt.preventDefault();
-			// 				RevealSeminar.open_or_join_room(document.getElementById('password').value, (document.getElementById('username') || {}).value || 'Lecturer');
-			// 			});
-			// 		}
-
-			// 		var stopButton = document.getElementById('stopSeminar');
-			// 		if ( stopButton ) {
-			// 			stopButton.addEventListener('click', function(evt) {
-			// 				evt.preventDefault();
-			// 				if ( confirm("Are you sure you want to close the seminar for all participants?") ) {
-			// 					RevealSeminar.close_room(document.getElementById('password').value);
-			// 				}
-			// 			});
-			// 		}
-
-			// 	}
-			// 	else {
-			// 		setTimeout( initSeminarMenu, 100 );
-			// 	}
-			// }
-
 			function consumeBroadcastEvent( evt ) {
 				evt.stopPropagation();
 			}
-
-			// function seminarStatusLogger( message ) {
-			// if ( !isConnected ) {
-			// // hide elements that are only displayed when not connected
-			// var showOnDisconnected = document.querySelectorAll(".seminar.disconnected") || [];
-			// 	for (var i=0; i < showOnDisconnected.length; i++) {
-			// 	showOnDisconnected[i].style.display = "none";
-			// }
-
-			// // show elements that are only displayed when connected
-			// var showOnConnected = document.querySelectorAll(".seminar.connected") || [];
-			// 	for (var i=0; i < showOnConnected.length; i++) {
-			// 	showOnConnected[i].style.display = '';
-			// }
-			// isConnected = true;
-			// }
-			// 	var element = document.getElementById('logger');
-			// 	if ( element ) {
-			// 		while ( (element.value.match(/\n/g) || []).length >= 10 ) {
-			// 			// Limit number of lines in log to 10
-			// 			element.value = element.value.substring(element.value.indexOf("\n") + 1);
-			// 		};
-			// 		element.value += '> ' + message + '\n';
-			// 	}
-			// }
-
-			// initSeminarMenu();
-
 		</script>
 	</body>
 </html>
