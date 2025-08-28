@@ -1,6 +1,3 @@
-Aquí tienes el archivo README.md completo que te propuse anteriormente: <cite/>
-
-```markdown
 # 🐬 MySQL Nivel 0 - Sistema Educativo Interactivo
 
 <div align="center">
