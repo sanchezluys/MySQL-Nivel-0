@@ -271,7 +271,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 **[🚀 Ver Presentación](https://sanchezluys.github.io/MySQL-Nivel-0/) | [📚 Documentación](https://github.com/sanchezluys/MySQL-Nivel-0/wiki) | [🐛 Issues](https://github.com/sanchezluys/MySQL-Nivel-0/issues)**
 
 </div>
-```
+
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sanchezluys/MySQL-Nivel-0)
 Wiki pages you might want to explore:
 - [Overview (sanchezluys/MySQL-Nivel-0)](/wiki/sanchezluys/MySQL-Nivel-0#1)
